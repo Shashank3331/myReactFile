@@ -2,11 +2,11 @@ import React from 'react'
 import './App.css'
 
 function App() {
-  const name = "Shashank"
+  const name = "Shashank";
   return (
     <div className='App'>
           <p>Sopify Here...</p>
-          {name}
+          <h2>{name}</h2>
           <button>Join Now</button>
     </div>
   )
